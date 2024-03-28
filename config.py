@@ -15,9 +15,9 @@ API_HASH = getenv("API_HASH")
 BOT_TOKEN = getenv("BOT_TOKEN")
 
 # Add Owner Username without @ 
-OWNER_USERNAME = getenv("OWNER_USERNAME", "ownedbyrain")
+OWNER_USERNAME = getenv("OWNER_USERNAME", "itsmetitans")
 # Get Your bot username
-BOT_USERNAME = getenv("BOT_USERNAME" , "zullmbot")
+BOT_USERNAME = getenv("BOT_USERNAME" , "titansx_bot")
 
 # Database to save your chats and stats... Get MongoDB:-  https://telegra.ph/How-To-get-Mongodb-URI-04-06
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
@@ -52,7 +52,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 # For customized or modified Repository
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/apasihco/NezukoMusic",
+    "https://github.com/apasihco/titan",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
@@ -61,9 +61,9 @@ GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 # Only  Links formats are  accepted for this Var value.
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/strbzul")
+    "SUPPORT_CHANNEL", "https://t.me/mylifetitans")
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/mawingsupportt")
+    "SUPPORT_GROUP", "https://t.me/titanslogsmusic")
 
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -154,18 +154,18 @@ autoclean = []
 
 
 # Images
-START_IMG_URL = "https://telegra.ph/file/c394b9d3247403031589d.png"
-PING_IMG_URL = "https://telegra.ph/file/c394b9d3247403031589d.png"
+START_IMG_URL = "https://telegra.ph//file/4dd5219bf4eb5e0abe7d0.jpg"
+PING_IMG_URL = "https://telegra.ph//file/4dd5219bf4eb5e0abe7d0.jpg"
 PLAYLIST_IMG_URL = "https://telegra.ph//file/dfca5abcdca4dea7ec09c.jpg"
-GLOBAL_IMG_URL = "https://telegra.ph/file/c394b9d3247403031589d.png"
-STATS_IMG_URL = "https://telegra.ph//file/6be6db8050a16fe945184.jpg"
-TELEGRAM_AUDIO_URL = "https://telegra.ph//file/e3b18a8f57f197e623794.jpg"
-TELEGRAM_VIDEO_URL = "https://telegra.ph//file/e3b18a8f57f197e623794.jpg"
-STREAM_IMG_URL = "https://telegra.ph//file/e3b18a8f57f197e623794.jpg"
-SOUNCLOUD_IMG_URL = "https://telegra.ph//file/e3b18a8f57f197e623794.jpg"
-YOUTUBE_IMG_URL = "https://telegra.ph//file/e3b18a8f57f197e623794.jpg"
+GLOBAL_IMG_URL = "https://telegra.ph//file/4dd5219bf4eb5e0abe7d0.jpg"
+STATS_IMG_URL = "https://telegra.ph//file/4dd5219bf4eb5e0abe7d0.jpg"
+TELEGRAM_AUDIO_URL = "https://telegra.ph//file/4dd5219bf4eb5e0abe7d0.jpg"
+TELEGRAM_VIDEO_URL = "https://telegra.ph//file/4dd5219bf4eb5e0abe7d0.jpg"
+STREAM_IMG_URL = "https://telegra.ph//file/4dd5219bf4eb5e0abe7d0.jpg"
+SOUNCLOUD_IMG_URL = "https://telegra.ph//file/4dd5219bf4eb5e0abe7d0.jpg"
+YOUTUBE_IMG_URL = "https://telegra.ph//file/4dd5219bf4eb5e0abe7d0.jpg"
 SPOTIFY_ARTIST_IMG_URL = "https://telegra.ph//file/dfca5abcdca4dea7ec09c.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://telegra.ph/file/c394b9d3247403031589d.png"
+SPOTIFY_ALBUM_IMG_URL = "https://telegra.ph//file/4dd5219bf4eb5e0abe7d0.jpg"
 SPOTIFY_PLAYLIST_IMG_URL = "https://telegra.ph//file/6be6db8050a16fe945184.jpg"
 
 
