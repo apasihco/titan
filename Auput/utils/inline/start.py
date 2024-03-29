@@ -68,14 +68,14 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
             ]
         )
      else:
-        if GITHUB_REPO:
+     """   if GITHUB_REPO:
             buttons.append(
                 [
                     InlineKeyboardButton(
                         text=_["S_B_6"], url=f"https://github.com/"
                     ),
                 ]
-            )
+            )"""
     buttons.append(
         [
             InlineKeyboardButton(text=_["ST_B_6"], callback_data="LG"),
