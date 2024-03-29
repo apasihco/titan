@@ -45,7 +45,7 @@ def start_pannel(_):
 def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
     buttons = [
         [
-            InlineKeyboardButton(text=_["S_B_8"], callback_data="settings_back_helper"),
+            InlineKeyboardButton(text="🔎 Menu 🔍", callback_data="settings_back_helper"),
             InlineKeyboardButton(text="CH", url=f"https://t.me/mylifetitans"),
             InlineKeyboardButton(text="OWNER", url="https://t.me/itsmetitans"),
         ]
@@ -67,7 +67,7 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
                 ),
             ]
         )
-    else:
+     else:
         if GITHUB_REPO:
             buttons.append(
                 [
@@ -76,7 +76,7 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
                     ),
                 ]
             )
-           buttons.append(
+    buttons.append(
         [
             InlineKeyboardButton(text=_["ST_B_6"], callback_data="LG"),
         ]
